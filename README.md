@@ -3,6 +3,8 @@
 Gophish
 =======
 
+## note: I forked this repo from the master gophish repo and made some modifications to the code base to remove the "X-Mailer: gophish" string from the mail headers during campaigns.
+
 ![Build Status](https://github.com/gophish/gophish/workflows/CI/badge.svg) [![GoDoc](https://godoc.org/github.com/gophish/gophish?status.svg)](https://godoc.org/github.com/gophish/gophish)
 
 Gophish: Open-Source Phishing Toolkit
