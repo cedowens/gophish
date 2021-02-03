@@ -5,6 +5,11 @@ Gophish
 
 ## note: I forked this repo from the master gophish repo and made some modifications to the code base to remove the "X-Mailer: gophish" string from the mail headers during campaigns. I also changed the default rid parameter to result in gophish/models/campaign.go
 
+the places I changed the default gophish header are: 
+
+- models/smtp_test.go, models/maillog.go, models/email_request.go, models/email_request_test.go, models/maillog_test.go,
+
+----------------------
 
 ![Build Status](https://github.com/gophish/gophish/workflows/CI/badge.svg) [![GoDoc](https://godoc.org/github.com/gophish/gophish?status.svg)](https://godoc.org/github.com/gophish/gophish)
 
