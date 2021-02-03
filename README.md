@@ -3,7 +3,7 @@
 Gophish
 =======
 
-## note: I forked this repo from the master gophish repo and made some modifications to the code base to remove the "X-Mailer: gophish" string from the mail headers during campaigns. I also changed the default rid parameter to result in gophish/models/campaign.go
+## note: I forked this repo from the master gophish repo and made some modifications to the code base to remove the "X-Mailer: gophish" string from the mail headers during campaigns and from test emails. I also changed the default rid parameter to result in gophish/models/campaign.go
 
 the places I changed the default gophish header are: 
 
