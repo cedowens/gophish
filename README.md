@@ -7,7 +7,7 @@ Gophish
 
 the places I changed the default gophish header are: 
 
-- models/smtp_test.go, models/maillog.go, models/email_request.go, models/email_request_test.go, models/maillog_test.go,
+- models/smtp_test.go, models/maillog.go, models/email_request.go, models/email_request_test.go, models/maillog_test.go
 
 ----------------------
 
