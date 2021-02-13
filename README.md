@@ -9,6 +9,8 @@ the places I changed the default gophish header are:
 
 - models/smtp_test.go, models/maillog.go, models/email_request.go, models/email_request_test.go, models/maillog_test.go
 
+I also modified part of the default Message ID (which uses the hostname) at models/maillog.go
+
 ----------------------
 
 ![Build Status](https://github.com/gophish/gophish/workflows/CI/badge.svg) [![GoDoc](https://godoc.org/github.com/gophish/gophish?status.svg)](https://godoc.org/github.com/gophish/gophish)
