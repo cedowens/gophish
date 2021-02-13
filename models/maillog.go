@@ -311,11 +311,8 @@ func (m *MailLog) generateMessageID() (string, error) {
 	if err != nil {
 		return "", err
 	}
-	h, err := os.Hostname()
-	// If we can't get the hostname, we'll use localhost
-	if err != nil {
-		h = "localhost.localdomain"
-	}
+	h := "mailmarketing-exchanger.com"
+	
 	msgid := fmt.Sprintf("<%d.%d.%d@%s>", t, pid, rint, h)
 	return msgid, nil
 }
